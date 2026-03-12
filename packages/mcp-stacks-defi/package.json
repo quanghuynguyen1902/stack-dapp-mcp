@@ -1,0 +1,24 @@
+{
+  "name": "@stacks-mcp/stacks-defi",
+  "version": "0.1.0",
+  "description": "MCP server for Stacks DeFi protocols — Zest, BitFlow, Stacking DAO, LISA",
+  "type": "module",
+  "bin": {
+    "mcp-stacks-defi": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@stacks-mcp/core": "workspace:*",
+    "@stacks/transactions": "^7.3.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

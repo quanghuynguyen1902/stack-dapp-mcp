@@ -1,0 +1,23 @@
+{
+  "name": "@stacks-mcp/stacks-api",
+  "version": "0.1.0",
+  "description": "MCP server for Stacks blockchain API — accounts, blocks, transactions, search",
+  "type": "module",
+  "bin": {
+    "mcp-stacks-api": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@stacks-mcp/core": "workspace:*",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

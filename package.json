@@ -1,0 +1,14 @@
+{
+  "name": "stacks-mcp",
+  "private": true,
+  "description": "Open-source MCP servers for the Stacks blockchain ecosystem",
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r exec rm -rf dist"
+  },
+  "keywords": ["stacks", "bitcoin", "mcp", "defi", "sbtc"],
+  "license": "MIT",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
